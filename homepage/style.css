@@ -1,0 +1,90 @@
+body{
+  background-color: #bfbfbf;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav {
+  background: #009ec4;
+  display: flex;
+  padding: 1rem;
+  border-bottom: 1rem solid #bfbfbf;
+}
+.form-inline{
+  margin-top: 5%;
+}
+.search-bar{
+  background-color: #009ec4;
+  border-radius: 10%;
+  border: 1px solid #ffffff;
+ }
+
+.logo,
+.nav-items {
+  flex: 1;
+}
+
+.logo p {
+  font-style: "Times New Roman";
+  font-size: 32px;
+  color: #ffffff;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.nav-items ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.nav-items ul li {
+  flex: 1;
+  text-align: right;
+  max-width: 150px;
+  font-size: 20px;
+  margin-top: 6px;
+}
+
+.nav-items ul li:hover a {
+  color: #e8ebee;
+}
+
+#cart {
+  font-size: 32px;
+  margin: 0;
+}
+
+#cart a {
+  position: relative;
+}
+
+#cart span {
+  display: block;
+  position: absolute;
+  border-radius: 100px;
+  background: red;
+  padding: 1px 6px;
+  font-size: 15px;
+  top: -5px;
+  right: -10px;
+}
+
+footer{
+  background-color: #009ec4 ;
+  color: #ffffff ;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.flex-center{
+  margin-left: 35%;
+}
+.footer-copyright{
+  background-color: #0391b4;
+}
