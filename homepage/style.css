@@ -1,6 +1,8 @@
 body{
   background-color: #bfbfbf;
   color: #ffffff;
+  font-size: 16px;
+  font-family: serif;
 }
 
 a {
@@ -11,11 +13,11 @@ a {
 nav {
   background: #009ec4;
   display: flex;
-  padding: 1rem;
-  border-bottom: 1rem solid #bfbfbf;
+  border-bottom: 2px solid #bfbfbf;
+  padding: 0.6rem 2.5rem;
 }
 .form-inline{
-  margin-top: 5%;
+  margin-top: 0.4rem;
 }
 .search-bar{
   background-color: #009ec4;
@@ -29,26 +31,24 @@ nav {
 }
 
 .logo p {
-  font-style: "Times New Roman";
   font-size: 32px;
   color: #ffffff;
-  padding: 0.5rem;
   font-weight: bold;
+  margin-left: 1.5rem;
 }
 
 .nav-items ul {
   display: flex;
   list-style-type: none;
   justify-content: flex-end;
-  padding: 0.5rem;
 }
 
 .nav-items ul li {
   flex: 1;
   text-align: right;
-  max-width: 150px;
+  max-width: 200px;
   font-size: 20px;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 
 .nav-items ul li:hover a {
@@ -62,6 +62,7 @@ nav {
 
 #cart a {
   position: relative;
+  margin-right: 1.5rem;
 }
 
 #cart span {
@@ -78,9 +79,8 @@ nav {
 footer{
   background-color: #009ec4 ;
   color: #ffffff ;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-top: 1rem;
+  font-style: arial;
+
 }
 .flex-center{
   margin-left: 35%;
