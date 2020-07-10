@@ -1,9 +1,4 @@
-body{
-    background-color: #bfbfbf;
-    color: #ffffff;
-    font-size: 16px;
-    font-family: serif;
-  }
+
 .nav-categories ul li {
     list-style-type: none;
     display: inline;
@@ -49,11 +44,6 @@ body{
     width:40%;   
     height:40%; 
 }
-.help {
-    margin: 0;
-    background-color: white;
-    color:black;
-}
 .col{
     text-align:center;
     background-color: white;
@@ -62,18 +52,12 @@ body{
     text-align:center;
     color: black;
 }
-.help {
-/*     margin-left: 1rem;
-    margin-right: 1rem; */
-    margin-bottom: 1rem;
-    background-color: #bfbfbf;
-}
+
 .aboutus {
 /*     margin-left: 1rem;
     margin-right: 1rem; */
 
     color: black;
-    background-color: #bfbfbf;
 
 }
 .disclaimer {
