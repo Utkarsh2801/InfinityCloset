@@ -11,11 +11,11 @@ a {
 
 .container {
   height: 100vh;
-  background: rgba(0, 0, 255, 0.1);
+  background: #bfbfbf;
 }
 
 nav {
-  background: #009ec4;
+  background: #2c3335;
   display: flex;
   padding: 1rem 5rem;
   border-bottom: 2px solid #ffffff;
@@ -81,18 +81,19 @@ nav {
 .main-section .side-section {
   height: 100%;
   flex: 1;
+  background: #000000;
 }
 
 .main-section .form-section {
   height: 100%;
-  flex: 1;
+  flex: 3;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .login-signup-form {
-  min-width: 350px;
+  min-width: 450px;
 }
 
 .form-heading {
@@ -109,7 +110,7 @@ nav {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 160px;
+  width: 100px;
   height: 3px;
   background: #d8504c;
 }
@@ -145,7 +146,7 @@ nav {
 .form-input::before {
   content: "";
   position: absolute;
-  background: #009fbb;
+  background: #2c3335;
   bottom: -3px;
   right: -3px;
   width: 100%;
@@ -240,4 +241,13 @@ input[type="submit"] {
 #icon-mobile {
   font-size: 1.2rem;
   padding: 4px 10px;
+}
+
+.eye {
+  position: absolute;
+  right: 15px;
+  top: 6px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #4c4b4b;
 }
