@@ -74,7 +74,7 @@ nav {
 }
 
 .main-section {
-  height: 650px;
+  height: 675px;
   display: flex;
 }
 
@@ -85,7 +85,7 @@ nav {
 }
 
 .main-section .form-section {
-  height: 100%;
+  height: auto;
   flex: 3;
   display: flex;
   justify-content: center;
@@ -250,4 +250,53 @@ input[type="submit"] {
   font-size: 25px;
   cursor: pointer;
   color: #4c4b4b;
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    height: auto;
+  }
+  .main-section {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .login-signup-form {
+    min-width: 300px;
+  }
+  input[type="submit"] {
+    padding: 0.5rem 2.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    height: 100vh;
+  }
+
+  nav {
+    padding: 1rem 1rem;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .nav-items {
+    flex: 3;
+  }
+
+  .logo p {
+    font-size: 28px;
+  }
+
+  .nav-items ul li {
+    max-width: 70px;
+    font-size: 18px;
+  }
+
+  .form-section {
+    padding-bottom: 30px;
+  }
 }
