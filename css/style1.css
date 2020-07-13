@@ -11,7 +11,7 @@ a {
 }
 
 nav {
-  background: #009ec4;
+  background: #404044;
   display: flex;
   border-bottom: 2px solid #bfbfbf;
   padding: 0.6rem 2.5rem;
@@ -33,7 +33,7 @@ nav {
 }
 
 .search-bar {
-  background-color: #009ec4;
+  background-color: #737373;
   border-radius: 10%;
   border: 1px solid #ffffff;
 }
@@ -65,7 +65,8 @@ nav {
 }
 
 .nav-items ul li:hover a {
-  color: #e8ebee;
+  text-decoration: none;
+  color: #bfbfbf;
 }
 
 #cart {
@@ -90,7 +91,7 @@ nav {
 }
 
 footer {
-  background-color: #009ec4;
+  background-color: #404040;
   color: #ffffff;
   font-style: arial;
 }
@@ -98,5 +99,5 @@ footer {
   margin-left: 35%;
 }
 .footer-copyright {
-  background-color: #0391b4;
+  background-color: #737373;
 }
