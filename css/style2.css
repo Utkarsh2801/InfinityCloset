@@ -1,4 +1,3 @@
-
 .nav-categories ul li {
     list-style-type: none;
     display: inline;
@@ -28,7 +27,7 @@
     padding-bottom: 1rem;
     text-decoration: none;
     background-color: white;
-    color: blue; 
+    color: #737373; 
 }
 .container {
     width: 60%;
@@ -36,29 +35,35 @@
   }
 .col{
     align:center;
-    background-color: #bfbfbf;
 }
 .img-fluid {
     /* padding-left: 30%; */
-    text-align:center;
+    align:center;
     width:40%;   
     height:40%; 
 }
+.help {
+    margin: 0;
+    background-color: #bfbfbf;
+    color:black;
+}
 .col{
+    padding-top: 2rem;
     text-align:center;
-    background-color: white;
+    background-color: #bfbfbf;
 }
 .col h2 {
     text-align:center;
     color: black;
 }
-
+.help {
+    padding: 1rem 1rem 1rem 2rem;
+    
+}
 .aboutus {
-/*     margin-left: 1rem;
-    margin-right: 1rem; */
-
+    padding: 1rem 1rem 1rem 2rem;
+    background-color: #bfbfbf;
     color: black;
-
 }
 .disclaimer {
     text-align: center;
